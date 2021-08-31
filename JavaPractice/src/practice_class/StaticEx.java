@@ -1,3 +1,4 @@
+//배열 합치기 프로그램
 package practice_class;
 
 class ArrayUtil {
