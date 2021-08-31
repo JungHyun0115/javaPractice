@@ -1,3 +1,4 @@
+//콘서트 예약 프로그램
 package practice_class;
 
 import java.util.ArrayList;
