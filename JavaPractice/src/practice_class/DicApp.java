@@ -1,3 +1,4 @@
+//단어 사전 프로그램
 package practice_class;
 
 import java.util.Scanner;
