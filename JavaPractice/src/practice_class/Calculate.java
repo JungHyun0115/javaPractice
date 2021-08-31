@@ -1,5 +1,6 @@
 package practice_class;
 
+//계산기 프로그램 
 import java.util.Scanner;
 
 class Add {
