@@ -8,7 +8,7 @@ public class number2739 {
 		int n;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("±¸±¸´ÜÀ» ¿ÜÀÚ ±¸±¸´ÜÀ» ¿ÜÀÚ : ");
+		System.out.print("êµ¬êµ¬ë‹¨ì„ ì™¸ìž êµ¬êµ¬ë‹¨ì„ ì™¸ìž ëª‡ ë‹¨? >> ");
 		
 		n = sc.nextInt();
 		
