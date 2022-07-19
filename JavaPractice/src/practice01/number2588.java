@@ -1,11 +1,20 @@
 package practice01;
 
+import java.util.Scanner;
+
 public class number2588 {
 
 	public static void main(String[] args) {
-
-		int n = 472, m = 385, sum;
+		Scanner sc = new Scanner(System.in);
 		
+		int n, m, sum;
+		
+		System.out.print("숫자 1 입력 : ");		
+		n = sc.nextInt();
+		
+		System.out.print("숫자 2 입력 : ");		
+		m = sc.nextInt();
+
 		int[] arr = new int[3];
 
 		arr[0] = m/100;
