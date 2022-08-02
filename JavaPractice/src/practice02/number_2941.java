@@ -12,6 +12,7 @@ public class number_2941 {
 		
 		String changeAl = sc.nextLine();
 		String alList[] = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
+		
 		ArrayList al = new ArrayList();
 		int count = 0, alLength = 0, total;
 		int changeLength = changeAl.length();
@@ -36,3 +37,4 @@ public class number_2941 {
 	}
 
 }
+//replaceAll
