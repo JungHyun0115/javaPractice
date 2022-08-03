@@ -12,7 +12,7 @@ public class number_1546 {
 		int M;
 		double total = 0;
 
-		System.out.print("몇 번? >> ");
+		System.out.print("과목수 >> ");
 		String subject = sc.nextLine();
 
 		String score = sc.nextLine();
@@ -25,8 +25,8 @@ public class number_1546 {
 			total += Integer.parseInt(spScore[i]);
 			
 			if(i < spScore.length-1) {
-				if(Integer.parseInt(spScore[i]) > Integer.parseInt(spScore[i+1])) {
-					M = Integer.parseInt(spScore[i]);
+				if(Integer.parseInt(spScore[i]) < Integer.parseInt(spScore[i+1])) {
+					M = Integer.parseInt(spScore[i+1]);
 				}
 			}
 		}

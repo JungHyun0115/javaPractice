@@ -11,21 +11,21 @@ public class number2884 {
 		Scanner schh = new Scanner(System.in);
 		Scanner scmm = new Scanner(System.in);
 		
-		System.out.println("ì•ŒëŒì‹œê³„ ì‹œê°„ ì„¤ì •");
+		System.out.println("¾Ë¶÷½Ã°è ½Ã°£ ¼³Á¤");
 		
-		System.out.print("ì‹œê°„ ì…ë ¥(ì‹œ) : ");
+		System.out.print("½Ã°£ ÀÔ·Â(½Ã) : ");
 		H = schh.nextInt();
 		
 		while(H < 0 || H > 23) {
-			System.out.print("ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”(1~23ì‹œ ì‚¬ì´ì˜ ì‹œê°„ ì…ë ¥) : ");
+			System.out.print("´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä(1~23½Ã »çÀÌÀÇ ½Ã°£ ÀÔ·Â) : ");
 			H = schh.nextInt();
 		}
 		
-		System.out.print("ì‹œê°„ ì…ë ¥(ë¶„) : ");
+		System.out.print("½Ã°£ ÀÔ·Â(ºĞ) : ");
 		M = scmm.nextInt();
 		
 		while(M < 0 || M > 59) {
-			System.out.print("ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”(1~59ë¶„ ì‚¬ì´ì˜ ë¶„ ì…ë ¥): ");
+			System.out.print("´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä(1~59½Ã »çÀÌÀÇ ºĞ ÀÔ·Â) : ");
 			M = schh.nextInt();
 		}
 		
@@ -48,7 +48,7 @@ public class number2884 {
 			}
 		}
 	
-		System.out.println("ì•ŒëŒ ì„¤ì • ì™„ë£Œ " + H + "ì‹œ " + M + "ë¶„");
+		System.out.println("¾Ë¶÷ ¼³Á¤ ¿Ï·á " + H + "½Ã " + M + "ºĞ");
 			
 	}
 
